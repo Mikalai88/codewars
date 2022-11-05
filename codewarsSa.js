@@ -16,3 +16,11 @@ function fakeBin(x){
 function betterThanAverage(classPoints, yourPoints) {
     return yourPoints > classPoints.reduce((a, b) => a + b, 0) / classPoints.length;
 }
+
+const reverseSeq = n => {
+    let arr = [];
+    for (let i = 1; i <= n; i++){
+        arr.push(i);
+    }
+    return arr.reverse();
+};
