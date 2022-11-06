@@ -18,3 +18,9 @@ function bmi(weight, height) {
         return "Obese";
     }
 }
+
+function grow(x){
+    return x.reduce((total, num) => {
+        return total * num;
+    }, 1);
+}
