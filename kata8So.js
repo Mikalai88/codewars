@@ -24,3 +24,7 @@ function grow(x){
         return total * num;
     }, 1);
 }
+
+function makeUpperCase(str) {
+    return str.toUpperCase();
+}
