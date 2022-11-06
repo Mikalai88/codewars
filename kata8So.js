@@ -28,3 +28,9 @@ function grow(x){
 function makeUpperCase(str) {
     return str.toUpperCase();
 }
+
+function greet(name){
+    if(name === "Johnny")
+        return "Hello, my love!";
+    return "Hello, " + name + "!";
+}
