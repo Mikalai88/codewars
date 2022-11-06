@@ -39,3 +39,7 @@ function simpleMultiplication(number) {
     var multi  = number % 2 == 0 ? 8 : 9;
     return number * multi;
 }
+
+const zeroFuel = (distanceToPump, mpg, fuelLeft) => {
+    return mpg * fuelLeft < distanceToPump ? false : true;
+};
