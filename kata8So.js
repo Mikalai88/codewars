@@ -43,3 +43,8 @@ function simpleMultiplication(number) {
 const zeroFuel = (distanceToPump, mpg, fuelLeft) => {
     return mpg * fuelLeft < distanceToPump ? false : true;
 };
+
+function hero(bullets, dragons){
+//Get Coding!
+    return bullets >= 2 * dragons;
+}
