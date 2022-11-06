@@ -34,3 +34,8 @@ function greet(name){
         return "Hello, my love!";
     return "Hello, " + name + "!";
 }
+
+function simpleMultiplication(number) {
+    var multi  = number % 2 == 0 ? 8 : 9;
+    return number * multi;
+}
