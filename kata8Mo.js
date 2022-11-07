@@ -39,4 +39,14 @@ function gooseFilter (birds) {
 
     return birds.filter(x => !geese.includes(x))
     // return an array containing all of the strings in the input array except those that match strings in geese
-};
+}
+
+function well(x){
+    let count = 0;
+    for (const idea of x) {
+        if (idea === 'good') count += 1
+    }
+    if (count > 2) return 'I smell a series!';
+    if ( count > 0) return 'Publish!';
+    return 'Fail!';
+}
