@@ -31,3 +31,8 @@ function findDifference(a, b) {
 function testEven(n) {
     return n%2===0;
 }
+
+function between(a, b) {
+    // your code here
+    return Array.from(new Array(b-a + 1), x => a++)
+}
