@@ -32,7 +32,11 @@ function testEven(n) {
     return n%2===0;
 }
 
-function between(a, b) {
-    // your code here
-    return Array.from(new Array(b-a + 1), x => a++)
-}
+
+
+function gooseFilter (birds) {
+    var geese = ["African", "Roman Tufted", "Toulouse", "Pilgrim", "Steinbacher"];
+
+    return birds.filter(x => !geese.includes(x))
+    // return an array containing all of the strings in the input array except those that match strings in geese
+};
