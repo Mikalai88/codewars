@@ -17,3 +17,7 @@ function finalGrade (exam, projects) {
             : exam > 50 && projects > 1 ? 75
                 : 0
 }
+
+function sumStr(a,b) {
+    return String(+a + +b)
+}
